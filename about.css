@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.menu_bar {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  h1.logo {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+  }
+  .menu_bar ul {
+    list-style: none;
+    display: flex;
+  }
+  .menu_bar ul li {
+    padding: 10px 30px;
+  }
+  .menu_bar ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.9s;
+  }
+  .menu_bar ul li a:hover {
+    border-bottom: 1px solid white;
+    color: yellow;
+  }
+  .sideimage img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.sideimage {
+  margin-left: 571px;
+  margin-top: 107px;
+}
+.title {
+  margin-top: 90px;
+  text-align: center;
+}
+.title_description {
+  width: 61rem;
+  margin-top: 32px;
+  margin-left: 121px;
+  border: 1px solid #dadada;
+  padding: 15px;
+  box-shadow: 0 0 13px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h3.introduction {
+  margin-top: 11px;
+  padding: 10px;
+}
+.divider1st {
+  margin-top: 8px;
+}
+.divider1st hr {
+  border: 1px solid #dadada;
+  width: 905px;
+  margin-left: 10px;
+}
+h2.ownername {
+  margin-top: 14px;
+  padding: 3px;
+}
+p.owner_section_intro {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.divider2nd {
+  margin-top: 20px;
+  margin-left: 6px;
+}
+.divider2nd hr {
+  border: 1px solid #dadada;
+  width: 867px;
+}
+h2.Crafting {
+  margin-top: 15px;
+}
+p.crafting_description {
+  margin-top: 1px;
+  padding: 10px;
+  font-size: 19px;
+}
+.divider3 {
+  margin-top: 11px;
+}
+h2.local_standrad {
+  margin-top: 20px;
+}
+p.local_description {
+  margin-top: 5px;
+  font-size: 20px;
+  padding: 13px;
+}
+h2.kalikot {
+  margin-top: 17px;
+}
+p.kalikot_des {
+  margin-top: 13px;
+  font-size: 18px;
+  padding: 10px;
+}
+h2.women {
+  margin-top: 12px;
+}
+p.empowering {
+  margin-top: 11px;
+  font-size: 18px;
+  padding: 11px;
+}
+h2.export {
+  margin-top: 10px;
+}
+p.export_des {
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 10px;
+}
+h2.title_challanges {
+  margin-top: 14px;
+}
+p.challanges_des {
+  margin-top: 16px;
+  font-size: 19px;
+  padding: 10px;
+}
+h2.client {
+  margin-top: 17px;
+}
+p.client_des {
+  margin-top: 17px;
+  font-size: 19px;
+  padding: 10px;
+}
+h2.conclussion {
+  margin-top: 14px;
+}
+p.conclussion_des {
+  margin-top: 13px;
+  font-size: 19px;
+  padding: 10px;
+}
+.footer {
+  margin-top: 98px;
+  display: flex;
+  width: 100%;
+  height: 82px;
+  background: aqua;
+}
+h1.footer_title {
+  margin-top: 27px;
+  margin-left: 19px;
+  font-size: 22px;
+}
+.copyright {
+  margin-top: 34px;
+  margin-left: 246px;
+}
+.icons {
+  margin-left: 289px;
+  display: flex;
+  gap: 33px;
+  margin-top: 33px;
+}
+p.copyright_section {
+  font-size: 17px;
+} 
+a.tiktok_icon {
+  font-size: 25px;
+} 
+a.facebook_iconz {
+  font-size: 25px;
+}
+a.twiter_icon {
+  font-size: 25px;
+}
+a.insta_icon {
+  font-size: 25px;
+} 
+.mobile_menu_bars{
+  display: none;
+}
+@media only screen and (max-width: 520px) {
+  ul.nav_items {
+    display: none;
+}
+     .mobile_menu_bars{
+      display: block;
+     }
+     h1.logo {
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+  }
+  .sideimage img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-left: -440px;
+}
+.title h1 {
+  font-size: 24px;
+}
+.title_description {
+  width: 29rem;
+  margin-top: 32px;
+  border: 1px solid #dadada;
+  padding: 15px;
+  box-shadow: 0 0 13px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+}
+ hr {
+  border: 1px solid #858484;
+  width: 419px;
+  margin-left: 3px;
+}
+.footer {
+  margin-top: 98px;
+  display: flex;
+  width: 31rem;
+  height: 152px;
+  background: aqua;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1.footer_title {
+  margin-top: 27px;
+  margin-left: 19px;
+  font-size: 22px;
+}
+.footer .copyright {
+  margin-top: 34px;
+  margin-left: 0;
+}
+.footer .icons {
+  margin-left: -152px;
+  display: flex;
+  gap: 16px;
+  margin-top: 69px;
+}
+.divider2nd hr {
+  border: 1px solid #dadada;
+  width: 398px;
+}
+.divider1st hr {
+  border: 1px solid #dadada;
+  width: 390px;
+  margin-left: 10px;
+}
+}

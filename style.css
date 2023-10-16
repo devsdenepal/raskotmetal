@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+.menu_bar {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+h1.logo {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+.menu_bar ul {
+  list-style: none;
+  display: flex;
+}
+.menu_bar ul li {
+  padding: 10px 30px;
+}
+.menu_bar ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.9s;
+}
+.menu_bar ul li a:hover {
+  border-bottom: 1px solid white;
+  color: yellow;
+}
+.description {
+    margin-top: 105px;
+    margin-left: 17px;
+}
+.description p {
+    font-size: 22px;
+    font-family: system-ui;
+}
+img.nepallogo {
+  margin-top: -218px;
+  height: 159px;
+  margin-left: 60rem;
+}
+.another_section h1 {
+  text-align: center;
+  margin-top: 41px;
+  font-size: 55px;
+  color: blue;
+}
+.cupboard img {
+  height: 146px;
+  margin-left: 56px;
+  margin-top: 10px;
+}
+.cupboard p {
+  font-size: 20px;
+  padding: 12px;
+  font-weight: 400;
+  margin: auto;
+}
+.cupboard button {
+  width: 158px;
+  height: 50px;
+  margin-left: 53px;
+  border: none;
+  border-radius: 7px;
+  background-color: orange;
+  outline: none;
+}
+.cupboard {
+    border: 1px solid #dadadada;
+    width: 296px;
+    border-radius: 11px;
+    height: 326px;
+    box-shadow: 0 0 12px;
+    margin-top: 58px;
+    margin-left: 21px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-size: 33px;
+  font-weight: 400;
+}
+
+.footer {
+  margin-top: 98px;
+  display: flex;
+  width: 100%;
+  height: 82px;
+  background: aqua;
+}
+h1.footer_title {
+  margin-top: 27px;
+  margin-left: 19px;
+  font-size: 22px;
+}
+.copyright {
+  margin-top: 34px;
+  margin-left: 246px;
+}
+.icons {
+  margin-left: 289px;
+  display: flex;
+  gap: 33px;
+  margin-top: 33px;
+}
+p.copyright_section {
+  font-size: 17px;
+} 
+a.tiktok_icon {
+  font-size: 25px;
+} 
+a.facebook_iconz {
+  font-size: 25px;
+}
+a.twiter_icon {
+  font-size: 25px;
+}
+a.insta_icon {
+  font-size: 25px;
+} 
+.mobile_menu_bars{
+  display: none;
+}
+.bed img {
+  height: 142px;
+  background: transparent;
+}
+.Bed {
+  border: 1px solid #dadadada;
+  width: 238px;
+  padding: 14px;
+  border-radius: 13px;
+  box-shadow: 0 0 4px;
+  margin-top: -325px;
+  margin-left: 63pc;
+}
+.Bed p {
+  text-align: center;
+  padding: 10px;
+}
+.Bed button {
+  /* text-align: center; */
+  margin-left: 41px;
+  border: none;
+  width: 129px;
+  height: 46px;
+  background: orange;
+  border-radius: 11px;
+}
+.Bed img {
+  height: 100px;
+  margin-left: 50px;
+}
+@media only screen and (max-width: 520px) {
+  .menu_bar ul {
+    display: none;
+  }
+  h1.logo {
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+  } 
+  .mobile_menu_bars{
+    display: block;
+  }
+  img.nepallogo {
+    margin-top: -218px;
+    height: 159px;
+    margin-left: 60rem;
+  }
+  .sideimage {
+    margin-top: -286px;
+    margin-left: -56rem;
+  }
+  .another_section h1 {
+    text-align: center;
+    margin-top: 261px;
+    font-size: 45px;
+    color: blue;
+  }
+  .description {
+    margin-top: 264px;
+    margin-left: 17px;
+}
+.description p {
+    font-size: 22px;
+    font-family: system-ui;
+    text-align: left;
+}
+  .cupboard {
+    border: 1px solid #dadadada;
+    width: 296px;
+    border-radius: 11px;
+    height: 326px;
+    margin-top: 58px;
+    margin-left: 79px;
+  }
+  .footer {
+    margin-top: 101px;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    background: aqua;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer .icons {
+    margin-left: -152px;
+    display: flex;
+    gap: 16px;
+    margin-top: 69px;
+}
+  .footer .copyright {
+    margin-top: 34px;
+    margin-left: 0;
+  }
+  .Bed {
+    border: 1px solid rgba(218, 218, 218, 0.855);
+    width: 304px;
+    padding: 14px;
+    border-radius: 13px;
+    box-shadow: 0px 0px 4px;
+    margin-top: 71px;
+    margin-left: 5pc;
+}
+.Bed p {
+  text-align: center;
+  padding: 7px;
+  font-size: 19px;
+  font-family: auto;
+}
+.Bed img {
+  height: 125px;
+  margin-left: 65px;
+}
+.Bed button {
+  /* text-align: center; */
+  margin-left: 59px;
+  border: none;
+  width: 129px;
+  height: 46px;
+  background: orange;
+  border-radius: 11px;
+  margin-top: 1pc;
+}
+}
